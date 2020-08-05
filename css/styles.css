@@ -10084,11 +10084,11 @@ header.masthead h1 {
 #works .container-fluid, #works .container-sm, #works .container-md, #works .container-lg, #works .container-xl {
   max-width: 1920px;
 }
-#works .container-fluid .works-box, #works .container-sm .works-box, #works .container-md .works-box, #works .container-lg .works-box, #works .container-xl .works-box {
+#works .container .works-box, #works .container-sm .works-box, #works .container-md .works-box, #works .container-lg .works-box, #works .container-xl .works-box {
   position: relative;
   display: block;
 }
-#works .container-fluid .works-box .works-box-caption, #works .container-sm .works-box .works-box-caption, #works .container-md .works-box .works-box-caption, #works .container-lg .works-box .works-box-caption, #works .container-xl .works-box .works-box-caption {
+#works .container .works-box .works-box-caption, #works .container-sm .works-box .works-box-caption, #works .container-md .works-box .works-box-caption, #works .container-lg .works-box .works-box-caption, #works .container-xl .works-box .works-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10104,16 +10104,16 @@ header.masthead h1 {
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#works .container-fluid .works-box .works-box-caption .project-category, #works .container-sm .works-box .works-box-caption .project-category, #works .container-md .works-box .works-box-caption .project-category, #works .container-lg .works-box .works-box-caption .project-category, #works .container-xl .works-box .works-box-caption .project-category {
+#works .container .works-box .works-box-caption .project-category, #works .container-sm .works-box .works-box-caption .project-category, #works .container-md .works-box .works-box-caption .project-category, #works .container-lg .works-box .works-box-caption .project-category, #works .container-xl .works-box .works-box-caption .project-category {
   font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#works .container-fluid .works-box .works-box-caption .project-name, #works .container-sm .works-box .works-box-caption .project-name, #works .container-md .works-box .works-box-caption .project-name, #works .container-lg .works-box .works-box-caption .project-name, #works .container-xl .works-box .works-box-caption .project-name {
+#works .container .works-box .works-box-caption .project-name, #works .container-sm .works-box .works-box-caption .project-name, #works .container-md .works-box .works-box-caption .project-name, #works .container-lg .works-box .works-box-caption .project-name, #works .container-xl .works-box .works-box-caption .project-name {
   font-size: 1.2rem;
 }
-#works .container-fluid .works-box:hover .works-box-caption, #works .container-sm .works-box:hover .works-box-caption, #works .container-md .works-box:hover .works-box-caption, #works .container-lg .works-box:hover .works-box-caption, #works .container-xl .works-box:hover .works-box-caption {
+#works .container .works-box:hover .works-box-caption, #works .container-sm .works-box:hover .works-box-caption, #works .container-md .works-box:hover .works-box-caption, #works .container-lg .works-box:hover .works-box-caption, #works .container-xl .works-box:hover .works-box-caption {
   opacity: 1;
 }
 
