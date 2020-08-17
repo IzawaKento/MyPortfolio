@@ -47,7 +47,6 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 mb-5">Portfolio</p>
-                        <p class="text-white-75 mb-5">工事中！！</p>
                     </div>
                 </div>
             </div>
@@ -66,8 +65,10 @@
                         <p class="text-left">和歌山大学大学院システム工学研究科1回生</p>
                         <p class="text-left">視覚メディア研究室所属</p>
                         <p class="text-left">幼少期からゲームを作るゲームに熱中</p>
+                        <p class="text-left">ゲームのCG表現技術に興味を持つ</p>
                         <p class="text-left">ゲーム制作団体CGP、3Dグラフィッカー部門元チーフ</p>
                         <p class="mb-3 text-left">チーム制作はプログラマー担当1作品、3Dグラフィッカー担当4作品</p>
+
 
                     </div>
                 </div>
@@ -148,11 +149,11 @@
                         <p class="mt-6">開発環境：　　Windows, C++, OpenGL Compute Shader</p>
                         <p class="mt-0">キーワード：　セルオートマトン, リアルタイムレンダリング, マーチングキューブ法, GPGPU</p>
                     </div>
-                    <!--
+
                     <div>
                         <button type="button" class="btn btn-secondary mt-5 py-2 px-3" data-toggle="modal" data-target="#researchModal">More</button>
                     </div>
-                  -->
+
                 </div>
             </div>
             <div class="container">
@@ -175,14 +176,69 @@
                                         <p class="mt-0">研究目的： リアルタイムレンダリングへの応用を前提とした、結晶成長表現の開発</p>
                                         <p class="mt-0">開発環境： Windows, C++, OpenGL Compute Shader</p>
                                     </div>
+
                                     <div class="col-lg-12 col-md-12  mt-5">
-                                        <h4 class="mb-3 text-left">背景</h4>
-                                        <p class="mt-0">ビデオゲームでの結晶成長表現は簡易的なものが多く、成長速度が遅い場合違和感が目立つ</p>
+                                        <h4 class="mb-3 text-left border-bottom">背景</h4>
+
                                     </div>
-                                    <div class="col-lg-6 col-md-6 mt-3">
-                                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1f.jpg" alt="" />
+                                    <div class="col-lg-6 col-md-6">
+                                        <img class="img-fluid" src="assets/img/portfolio/research/r2.jpg" alt="" />
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 mt-3">
+
+                                        <p class="mt-0">ビデオゲームでの結晶成長表現は簡易的なものが多く、じっくり成長させると違和感が目立つ。</p>
+                                        <p class="mt-0">また、それを改善するために物理学に基づいているものはあまり見られない。</p>
                                     </div>
 
+                                    <div class="col-lg-12 col-md-12  mt-5">
+                                        <h4 class="mb-3 text-left border-bottom">目標</h4>
+                                        <p class="mt-0">統計物理分野の結晶成長アルゴリズムに基づき、よりそれらしい結晶成長を表現する</p>
+                                        <p class="mt-0 mb-5">また、なぞったところから結晶が生成されるようなツールとしての応用を目指す</p>
+                                    </div>
+
+                                    <!--
+                                    <div class="col-lg-12 col-md-12  mt-5">
+                                        <h4 class="mb-3 text-left">手法概要</h4>
+                                        <p class="mt-0">以下の成長アルゴリズムを1サイクルとして繰り返すことで結晶成長を表現する</p>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 mt-3">
+                                        <p class="mt-0">水晶の構造に基づき3次元格子を作成</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <img class="img-fluid" src="assets/img/portfolio/research/r4.jpg" alt="" />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 mt-3">
+                                        <p class="mt-0">セルオートマトンを用いて各格子点の結晶化具合の情報を更新</p>
+                                        <img class="img-fluid" src="assets/img/portfolio/research/r1.jpg" alt="" />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 mt-3">
+                                        <p class="mt-0">情報に基づきマーチングキューブを用いて結晶形状を生成</p>
+                                        <img class="img-fluid" src="assets/img/portfolio/research/r1.jpg" alt="" />
+                                    </div>
+                                  -->
+
+                                    <div class="col-lg-12 col-md-12  mt-5">
+                                        <h4 class="mb-3 text-left border-bottom">結晶形状生成例</h4>
+                                        <p class="mt-0">成分量などのパラメータを操作することで結晶形状が変化する</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 mt-3">
+                                        <img class="img-fluid" src="assets/img/portfolio/research/r5.jpg" alt="" />
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 mt-3">
+                                        <img class="img-fluid" src="assets/img/portfolio/research/r1.jpg" alt="" />
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12  mt-5">
+                                        <h4 class="mb-3 text-left border-bottom">GPGPUの活用</h4>
+                                        <p class="mt-0 mb-5">ゲームエフェクトへの応用では60FPS以上での描画が前提となる。処理を高速化するため、結晶成長アルゴリズムの計算はOpenGL Compute Shaderを用いて並列的に行っている。</p>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12  mt-5">
+                                        <h4 class="mb-3 text-left border-bottom">課題</h4>
+                                        <p class="mt-0 mb-5">処理の高速化・改善：現状結晶１つでかなりのGPU資源を使用してしまっているため、アルゴリズムを大幅に改善する必要がある。</p>
+                                        <p class="mt-0 mb-5">パラメータの改善：ゲームエフェクトではデザイナーの意図した成長表現を行う必要があるため、物理的パラメータではなくより直接的に制御できるパラメータを設定する必要がある。</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="modal-footer row justify-content-center">
@@ -370,7 +426,7 @@
                                             <div class="col-lg-12 col-md-12  mt-3 ">
                                                 <h3 class="mt-1 mb-2 border-bottom">工程表を用いたタスク管理</h2>
                                             </div>
-                                            <div class="col-lg-6 col-md-6  mt-3">
+                                            <div class="col-lg-12 col-md-12  mt-3">
                                                 <p class="mt-0">タスクの量に偏りが出たり、無駄なタスクを作らないようにするため、工程表を用いた進捗管理を徹底した。これによってチーム全員が他のメンバーの状況を把握でき、個人の状況を考慮してタスクを分担することが出来た。</p>
                                             </div>
 
@@ -402,6 +458,7 @@
                                                 <p class="mt-0">ゲームコンセプトを「つないだコンボを守るドキドキ感」として、それを達成するために操作方法等の要素を設計した。しかし結果的にはレベルデザインにあまり時間を割くことが出来ず、意図通りの楽しさを生み出すことが出来なかった。</p>
                                             </div>
 
+                                            <!--
                                             <div class="col-lg-12 col-md-12 mt-3">
                                                 <h4 class="mt-1 mb-2 border-bottom">ゲーム概要</h4>
                                             </div>
@@ -447,7 +504,7 @@
                                             <div class="col-lg-6 col-md-6 mt-3">
                                               <img class="img-fluid " src="assets/img/portfolio/fullsize/w1_1.jpg" alt="" />
                                             </div>
-
+                                          -->
                                         </div>
                                     </div>
                                     <!--
