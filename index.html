@@ -187,13 +187,13 @@
                                     </div>
                                     <div class="col-lg-12 col-md-12 mt-3">
 
-                                        <p class="mt-0">ビデオゲームでの結晶成長表現は簡易的なものが多く、じっくり成長させると違和感が目立つ。</p>
-                                        <p class="mt-0">また、それを改善するために物理学に基づいているものはあまり見られない。</p>
+                                        <p class="mt-0">ビデオゲームでの結晶成長表現は瞬間的にポリゴンを拡大する等、簡易的な表現が多くみられる</p>
+                                        <p class="mt-0">映像コンテンツではボリュームを利用した、より詳細な表現が多くみられる</p>
                                     </div>
 
                                     <div class="col-lg-12 col-md-12  mt-5">
                                         <h4 class="mb-3 text-left border-bottom">目標</h4>
-                                        <p class="mt-0">統計物理分野の結晶成長アルゴリズムに基づき、よりそれらしい結晶成長を表現する</p>
+                                        <p class="mt-0">統計物理分野の結晶成長アルゴリズムに基づき、よりリアリティのある結晶成長を表現する</p>
                                         <p class="mt-0 mb-5">また、なぞったところから結晶が生成されるようなツールとしての応用を目指す</p>
                                     </div>
 
@@ -237,7 +237,7 @@
                                     <div class="col-lg-12 col-md-12  mt-5">
                                         <h4 class="mb-3 text-left border-bottom">課題</h4>
                                         <p class="mt-0 mb-5">処理の高速化：現状結晶１つでかなりのGPU資源を使用してしまっているため、アルゴリズムを大幅に改善する必要がある。</p>
-                                        <p class="mt-0 mb-5">パラメータの改善：ゲームエフェクトではデザイナーの意図した成長表現を行う必要があるため、物理的パラメータではなくより直接的に制御できるパラメータを設定する必要がある。</p>
+                                        <p class="mt-0 mb-5">パラメータの改善：ゲームエフェクトではデザイナーの意図した成長表現を行う必要があるため、物理的パラメータではなく、より直接的に形状を制御できるパラメータを設定する必要がある。</p>
                                     </div>
                                 </div>
                             </div>
@@ -338,33 +338,37 @@
                                                 <p class="">制作期間： 約10ヶ月(制作休止期間含む)</p>
                                                 <p class="">開発環境： Blender Houdini</p>
                                                 <p class="">制作形態： 個人制作</p>
+                                                <a class="mt-1" href="https://cgworld.jp/regular/whosnext202008-6.html"
+                                                  target="_blank" rel="noopener noreferrer">CGWORLD Entry Vol.25「WHO'S NEXT?」25位 / 168作品</a>
                                             </div>
                                             <div class="col-lg-6 col-md-6  mt-3">
                                                 <p class="">「森で感じる圧倒的な生命感」</p>
                                                 <p class="">架空の植物と苔が共生しているという設定で「森で感じる圧倒的な生命感」をコンセプトとして制作した。植物の成長を感じられるように、成長に伴う質感・形の変化にこだわった。植物はプロシージャルモデリングを用いて制作した。</p>
                                             </div>
                                             <div class="col-lg-12 col-md-12 mt-3">
-                                                <h4 class="mt-1 mb-2 border-bottom">樹木モデル</h4>
+                                                <h4 class="mt-1 mb-2 border-bottom">樹木成長の形状変化を表現</h4>
                                             </div>
                                             <div class="col-lg-8 col-md-8 mt-3">
                                               <img class="img-fluid " src="assets/img/portfolio/fullsize/w1_1.jpg" alt="" />
                                             </div>
-                                            <div class="col-lg-4 col-md-4">
+                                            <div class="col-lg-4 col-md-4 mt-3">
                                               <img class="img-fluid " src="assets/img/portfolio/fullsize/w1_4.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-12 col-md-12">
-                                                <p class="mt-3">樹木形状はまっすぐ空へ伸びるセコイアと、自然の力を感じるガジュマルをモチーフにしてデザインした。マテリアルは成長を感じられるよう、幼木は透き通った淡い色、老木は油ぎった暗い色を目指した。</p>
+                                                <p class="mt-3">樹木形状はまっすぐ空へ伸びるセコイアと、自然の力を感じるガジュマルをモチーフにした。マテリアルは成長を感じられるよう、幼木は透き通った淡い色、老木は油ぎった暗い色を目指した。</p>
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 mt-3">
-                                                <h4 class="mt-1 mb-2 border-bottom">プロシージャルモデリング</h4>
+                                                <h4 class="mt-1 mb-2 border-bottom">プロシージャルモデリングの活用</h4>
                                             </div>
                                             <div class="col-lg-12 col-md-12 mt-3">
                                               <img class="img-fluid " src="assets/img/portfolio/fullsize/w1_6.jpg" alt="" />
                                               <img class="img-fluid " src="assets/img/portfolio/fullsize/w1_7.jpg" alt="" />
                                             </div>
                                             <div class="col-lg-12 col-md-12">
-                                                <p class="mt-3">メッシュ形状はHoudiniによるプロシージャルモデリングで作成している。樹木らしさを出すためにボリュームを利用した。</p>
+                                                <p class="mt-3">樹木成長に伴う形状の連続的な変化を表現するために、Houdiniによるプロシージャルモデリングを活用した。パラメータを操作すると樹木の曲がり具合、樹木の伸び具合や朽ち具合などの特徴を調整できる。</p>
+                                                <p class="mt-3">大まかなモデリング手順は、まずカーブに沿うワイヤーポリゴンを作成し、次にボリュームに変換し濃度にノイズを加える。最後にポリゴンに変換しなおした後、不要なポリゴンを取り除いて作成している。</p>
+                                                <p class="mt-3">ボリュームを介すことで、ガジュマルのツタが溶け合ったような形状と流木のような朽ちた様子の表現を試みている。</p>
                                             </div>
 
                                             <div class="col-lg-12 col-md-12 mt-3">
@@ -374,8 +378,7 @@
                                               <img class="img-fluid" src="assets/img/portfolio/fullsize/w1_5.jpeg" alt="" />
                                             </div>
                                             <div class="col-lg-12 col-md-12">
-                                                <p class="mt-3">メッシュデータについて、ポリゴン数が多くなってしまうがディスプレイスメントのための細分割処理を問題なく適用できると考え、Houdini上でボリュームデータをポリゴンに変換したものをリトポロジーせずに利用した。</p>
-                                                <p class="mt-3">テクスチャマッピングについて、UVの切れ目が目立たないようにするため、UV展開は行わず主にボックス投影を用いてマッピングした。</p>
+                                                <p class="mt-3">メッシュデータについて、ポリゴン数が多くなってしまうがディスプレイスメント処理を問題なく適用できると考え、Houdini上でボリュームデータをポリゴンに変換したものをリトポロジーせずに利用した。</p>
                                             </div>
                                         </div>
                                     </div>
@@ -387,7 +390,7 @@
                                             </div>
                                             <div class="col-lg-12 col-md-12  mt-3 ">
                                                 <h2 class="mt-1">Peaceful</h2>
-                                                <h4 class="mt-3 mb-2 border-bottom">CGWORLD Entry vol.21 「WHO'S NEXT?」 第1位</h4>
+                                                <h4 class="mt-3 mb-2 border-bottom">CGWORLD Entry vol.21 「WHO'S NEXT?」 1位/46作品</h4>
                                             </div>
                                             <div class="col-lg-6 col-md-6 mt-3">
                                                 <p class="">制作日：   2018年10月～2018年11月</p>
